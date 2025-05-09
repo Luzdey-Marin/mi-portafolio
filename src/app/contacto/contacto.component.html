@@ -1,0 +1,13 @@
+<h2>Bienvenido a mi portafolio</h2>
+<p>Esta es la sección de contacto.</p>
+
+<div class="contacto">
+    <h2>Contacto</h2>
+    <form (ngSubmit)="enviarComentario()">
+      <label for="comentario">Comentario:</label>
+      <textarea id="comentario" [(ngModel)]="comentario" name="comentario"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  
+
